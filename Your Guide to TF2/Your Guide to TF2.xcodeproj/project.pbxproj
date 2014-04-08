@@ -32,6 +32,7 @@
 		ACBC044718E8796D00900BBC /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBC044618E8796D00900BBC /* XMLParser.m */; };
 		ACBC044A18E87A4B00900BBC /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBC044918E87A4B00900BBC /* NewsViewController.m */; };
 		ACBDA8D5186AED3D00EBDB2F /* TF2CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA8D4186AED3D00EBDB2F /* TF2CollectionViewController.m */; };
+		ACC48C2618F1EBCE00F73408 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC48C2518F1EBCE00F73408 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,8 @@
 		ACBC044918E87A4B00900BBC /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
 		ACBDA8D3186AED3D00EBDB2F /* TF2CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TF2CollectionViewController.h; sourceTree = "<group>"; };
 		ACBDA8D4186AED3D00EBDB2F /* TF2CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TF2CollectionViewController.m; sourceTree = "<group>"; };
+		ACC48C2418F1EBCE00F73408 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		ACC48C2518F1EBCE00F73408 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +148,8 @@
 				ACBDA8D4186AED3D00EBDB2F /* TF2CollectionViewController.m */,
 				ACBC044818E87A4B00900BBC /* NewsViewController.h */,
 				ACBC044918E87A4B00900BBC /* NewsViewController.m */,
+				ACC48C2418F1EBCE00F73408 /* DetailViewController.h */,
+				ACC48C2518F1EBCE00F73408 /* DetailViewController.m */,
 				ACBC044518E8796D00900BBC /* XMLParser.h */,
 				ACBC044618E8796D00900BBC /* XMLParser.m */,
 				5A99FAD718689AF90019263C /* Images.xcassets */,
@@ -315,6 +320,7 @@
 				ACBC044A18E87A4B00900BBC /* NewsViewController.m in Sources */,
 				5A99FACA18689AF90019263C /* AppDelegate.m in Sources */,
 				5A99FAC618689AF90019263C /* main.m in Sources */,
+				ACC48C2618F1EBCE00F73408 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

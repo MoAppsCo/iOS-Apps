@@ -9,6 +9,7 @@
 #import "NewsViewController.h"
 #define NewsFeed @"http://www.teamfortress.com/rss.xml"
 #import "XMLParser.h"
+#import "DetailViewController.h"
 
 
 @interface NewsViewController ()
@@ -134,12 +135,20 @@
 }
 
 
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    NSDictionary *dict = [self.arrNewsData objectAtIndex:indexPath.row];
+- (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    NSString *newsLink = [dict objectForKey:@"link"];
+}
+
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:newsLink]];
+    if([segue.identifier isEqualToString:@"detail"]){
+        
+        
+        DetailViewController *detail = segue.destinationViewController;
+        NSIndexPath *indexPath = [self.tblNews indexPathForSelectedRow];
+        detail.item = [self.arrNewsData objectAtIndex:indexPath.row];
+        
+    }
 }
 
 -(void)fetchNewDataWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler{

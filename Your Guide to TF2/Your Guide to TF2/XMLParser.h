@@ -8,7 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface XMLParser : NSObject <NSXMLParserDelegate>
+@interface XMLParser : NSObject <NSXMLParserDelegate> {
+    NSMutableDictionary *item;
+    NSMutableString * currentLink;
+}
+
+@property (retain, nonatomic) NSMutableString *currentLink;
 
 -(id)initWithXMLURLString:(NSString *)xmlUrlString;
 -(void)startParsingWithCompletionHandler:(void(^)(BOOL success, NSArray *dataArray, NSError *error))completionHandler;

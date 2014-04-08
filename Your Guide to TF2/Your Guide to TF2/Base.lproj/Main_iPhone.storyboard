@@ -1,10 +1,54 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A598" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="leE-Fr-YSB">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A598" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2ZI-mu-crT">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--News View Controller-->
+        <!--Navigation Controller-->
+        <scene sceneID="deT-J7-b7u">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="2ZI-mu-crT" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Hq2-wS-pp2">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="leE-Fr-YSB" kind="relationship" relationship="rootViewController" id="IZN-I5-5z8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Icz-KI-dA7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="429" y="-1098"/>
+        </scene>
+        <!--Detail View Controller - Link-->
+        <scene sceneID="09k-DL-d8r">
+            <objects>
+                <viewController id="AsD-iV-FYE" customClass="DetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0Dk-9c-gp3"/>
+                        <viewControllerLayoutGuide type="bottom" id="hat-Hc-IDu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Z4a-3T-9FH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cuA-s7-bhk">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Link" id="mFT-dX-JNa"/>
+                    <connections>
+                        <outlet property="itemSummary" destination="cuA-s7-bhk" id="ssF-pX-y75"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0hF-mY-Z8e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1645" y="-1103"/>
+        </scene>
+        <!--News View Controller - News Feed-->
         <scene sceneID="3lW-p1-8ay">
             <objects>
                 <viewController id="leE-Fr-YSB" customClass="NewsViewController" sceneMemberID="viewController">
@@ -22,7 +66,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="idCellNewsTitle" textLabel="3VL-pF-tZd" detailTextLabel="HvD-Gs-9Tz" style="IBUITableViewCellStyleSubtitle" id="vmf-9l-evg">
-                                        <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vmf-9l-evg" id="duf-Tj-Fk8">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -57,14 +101,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="fbr-jR-FiC"/>
+                    <navigationItem key="navigationItem" title="News Feed" id="fbr-jR-FiC"/>
                     <connections>
                         <outlet property="tblNews" destination="0x5-EZ-4bL" id="k1M-Ur-ChF"/>
+                        <segue destination="AsD-iV-FYE" kind="push" identifier="detail" id="5mU-Rd-L71"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="US2-MC-3fP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="886" y="-599"/>
+            <point key="canvasLocation" x="1084" y="-1083"/>
         </scene>
         <!--Collection View Controller - Home-->
         <scene sceneID="pa1-tF-6Vs">
@@ -106,7 +151,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NBs-Yv-pbX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1589" y="165"/>
+            <point key="canvasLocation" x="1589" y="181"/>
         </scene>
         <!--Navigation Controller - Item-->
         <scene sceneID="bYn-wv-cGU">

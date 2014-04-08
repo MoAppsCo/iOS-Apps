@@ -107,6 +107,8 @@
 -(void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName attributes:(NSDictionary *)attributeDict{
     
     if ([elementName isEqualToString:@"item"]) {
+        item = [[NSMutableDictionary alloc] init];
+        self.currentLink = [[NSMutableString alloc] init];
         self.isNewsItem = YES;
     }
     
@@ -118,7 +120,7 @@
             self.allowedData = YES;
         }
     }
-    
+
     self.currentElement = elementName;
 }
 
@@ -127,14 +129,15 @@
     
     if ([elementName isEqualToString:@"item"]) {
         self.isNewsItem = NO;
-        
-        
+        [item setObject:self.currentLink forKey:@"link"];
+
         NSDictionary *dict = @{@"title":    self.newsTitle,
                                @"pubDate":  self.newsPubDate,
                                @"link":     self.newsLink
                                };
         
         [self.arrParsedData addObject:dict];
+ 
     }
     
     if (self.isNewsItem) {
@@ -158,6 +161,7 @@
         }
         else if ([self.currentElement isEqualToString:@"link"]){
             self.newsLink = string;
+            [self.currentLink appendString:string];
         }
     }
 }
