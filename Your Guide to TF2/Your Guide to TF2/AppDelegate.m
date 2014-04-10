@@ -49,7 +49,8 @@
 -(void)application:(UIApplication *)application performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler{
     NSDate *fetchStart = [NSDate date];
     
-    NewsViewController *viewController = (NewsViewController *)self.window.rootViewController;
+    UINavigationController *navController = (UINavigationController *)self.window.rootViewController;
+    NewsViewController *viewController = (NewsViewController *)[[navController viewControllers] objectAtIndex:0];
     
     [viewController fetchNewDataWithCompletionHandler:^(UIBackgroundFetchResult result) {
         completionHandler(result);

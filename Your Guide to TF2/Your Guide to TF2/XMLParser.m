@@ -39,6 +39,8 @@
 
 @implementation XMLParser
 
+@synthesize currentLink;
+
 -(id)initWithXMLURLString:(NSString *)xmlUrlString{
     self = [super init];
     if (self) {

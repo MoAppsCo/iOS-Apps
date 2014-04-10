@@ -65,11 +65,11 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="idCellNewsTitle" textLabel="3VL-pF-tZd" detailTextLabel="HvD-Gs-9Tz" style="IBUITableViewCellStyleSubtitle" id="vmf-9l-evg">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="idCellNewsTitle" textLabel="3VL-pF-tZd" detailTextLabel="HvD-Gs-9Tz" style="IBUITableViewCellStyleSubtitle" id="vmf-9l-evg">
                                         <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vmf-9l-evg" id="duf-Tj-Fk8">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30" id="3VL-pF-tZd">
@@ -88,6 +88,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="AsD-iV-FYE" kind="push" identifier="detail" id="tBj-ge-KF0"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -104,7 +107,6 @@
                     <navigationItem key="navigationItem" title="News Feed" id="fbr-jR-FiC"/>
                     <connections>
                         <outlet property="tblNews" destination="0x5-EZ-4bL" id="k1M-Ur-ChF"/>
-                        <segue destination="AsD-iV-FYE" kind="push" identifier="detail" id="5mU-Rd-L71"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="US2-MC-3fP" userLabel="First Responder" sceneMemberID="firstResponder"/>

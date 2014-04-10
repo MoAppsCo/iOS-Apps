@@ -29,18 +29,22 @@
 {
     [super viewDidLoad];
     
-    _itemSummary.delegate = self;
-    _itemSummary.scalesPageToFit = YES;
-    
-    NSURL* url = [NSURL URLWithString:[item objectForKey:@"link"]];
-    [_itemSummary loadRequest:[NSURLRequest requestWithURL:url]];
-    // Do any additional setup after loading the view.
+        // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    _itemSummary.delegate = self;
+    _itemSummary.scalesPageToFit = YES;
+    
+    NSURL* url = [NSURL URLWithString:[item objectForKey:@"link"]];
+    [_itemSummary loadRequest:[NSURLRequest requestWithURL:url]];
+
 }
 
 /*

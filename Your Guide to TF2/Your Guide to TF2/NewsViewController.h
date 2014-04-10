@@ -8,9 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NewsViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
+@interface NewsViewController : UIViewController<UITableViewDelegate, UITableViewDataSource> {
+NSArray *items;
+NSMutableArray *itemArray;
+}
 
-
+@property (retain, nonatomic) NSArray *items;
+@property (retain, nonatomic) NSMutableArray *itemArray;
 @property (weak, nonatomic) IBOutlet UITableView *tblNews;
 
 - (IBAction)removeDataFile:(id)sender;
