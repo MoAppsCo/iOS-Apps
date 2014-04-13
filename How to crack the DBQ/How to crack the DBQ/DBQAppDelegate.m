@@ -8,11 +8,39 @@
 
 #import "DBQAppDelegate.h"
 
+
 @implementation DBQAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+        self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+        if ([[NSUserDefaults standardUserDefaults] boolForKey:@"HasLaunchedOnce"])
+        {
+            UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"MainStoryboard"
+                                                                     bundle: nil];
+            SWRevealViewController *controller = (SWRevealViewController*)[mainStoryboard                                                              instantiateViewControllerWithIdentifier: @"SWRevealViewController"];
+            self.window.rootViewController = controller;
+            
+            NSLog(@"not first launch");
+            
+            self.window.rootViewController = controller;
+        }
+        else
+        {
+            [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"HasLaunchedOnce"];
+            [[NSUserDefaults standardUserDefaults] synchronize];
+            
+            UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"MainStoryboard"
+                                                                      bundle: nil];
+            ViewController *controller = (ViewController*)[mainStoryboard
+                                                           instantiateViewControllerWithIdentifier: @"ViewController"];
+            NSLog(@"first launch");
+            self.window.rootViewController = controller;
+        }
+        [self.window makeKeyAndVisible];
+    
+
     
     UIImage *navBackgroundImage = [UIImage imageNamed:@"nav_bg"];
     [[UINavigationBar appearance] setBackgroundImage:navBackgroundImage forBarMetrics:UIBarMetricsDefault];
@@ -23,6 +51,11 @@
                                                            [NSValue valueWithUIOffset:UIOffsetMake(0, 0)],
                                                            UITextAttributeTextShadowOffset,
                                                            [UIFont fontWithName:@"Avenir Next" size:20.0], UITextAttributeFont, nil]];
+    
+    UIPageControl *pageControl = [UIPageControl appearance];
+    pageControl.pageIndicatorTintColor = [UIColor lightGrayColor];
+    pageControl.currentPageIndicatorTintColor = [UIColor blackColor];
+    pageControl.backgroundColor = [UIColor whiteColor];
     
     return YES;
 }

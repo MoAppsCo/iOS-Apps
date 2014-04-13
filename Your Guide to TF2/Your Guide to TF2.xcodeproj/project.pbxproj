@@ -29,7 +29,10 @@
 		5AD34C04186F00F00065484B /* tf2_weapons_rounded.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AD34C00186F00F00065484B /* tf2_weapons_rounded.png */; };
 		5AD34C05186F00F00065484B /* tf2_trade_rounded.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AD34C01186F00F00065484B /* tf2_trade_rounded.png */; };
 		5AD34C09186F04230065484B /* tf2_items_rounded.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AD34C07186F04230065484B /* tf2_items_rounded.png */; };
+		ACBC044718E8796D00900BBC /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBC044618E8796D00900BBC /* XMLParser.m */; };
+		ACBC044A18E87A4B00900BBC /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBC044918E87A4B00900BBC /* NewsViewController.m */; };
 		ACBDA8D5186AED3D00EBDB2F /* TF2CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA8D4186AED3D00EBDB2F /* TF2CollectionViewController.m */; };
+		ACC48C2618F1EBCE00F73408 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC48C2518F1EBCE00F73408 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,8 +72,14 @@
 		5AD34C00186F00F00065484B /* tf2_weapons_rounded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tf2_weapons_rounded.png; sourceTree = "<group>"; };
 		5AD34C01186F00F00065484B /* tf2_trade_rounded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tf2_trade_rounded.png; sourceTree = "<group>"; };
 		5AD34C07186F04230065484B /* tf2_items_rounded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tf2_items_rounded.png; sourceTree = "<group>"; };
+		ACBC044518E8796D00900BBC /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		ACBC044618E8796D00900BBC /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		ACBC044818E87A4B00900BBC /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		ACBC044918E87A4B00900BBC /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
 		ACBDA8D3186AED3D00EBDB2F /* TF2CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TF2CollectionViewController.h; sourceTree = "<group>"; };
 		ACBDA8D4186AED3D00EBDB2F /* TF2CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TF2CollectionViewController.m; sourceTree = "<group>"; };
+		ACC48C2418F1EBCE00F73408 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		ACC48C2518F1EBCE00F73408 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,11 +141,17 @@
 			children = (
 				5A99FAF618689EAE0019263C /* Photos */,
 				5A99FAC818689AF90019263C /* AppDelegate.h */,
+				5A99FAC918689AF90019263C /* AppDelegate.m */,
 				5A99FACB18689AF90019263C /* Main_iPhone.storyboard */,
 				5A99FACE18689AF90019263C /* Main_iPad.storyboard */,
-				5A99FAC918689AF90019263C /* AppDelegate.m */,
 				ACBDA8D3186AED3D00EBDB2F /* TF2CollectionViewController.h */,
 				ACBDA8D4186AED3D00EBDB2F /* TF2CollectionViewController.m */,
+				ACBC044818E87A4B00900BBC /* NewsViewController.h */,
+				ACBC044918E87A4B00900BBC /* NewsViewController.m */,
+				ACC48C2418F1EBCE00F73408 /* DetailViewController.h */,
+				ACC48C2518F1EBCE00F73408 /* DetailViewController.m */,
+				ACBC044518E8796D00900BBC /* XMLParser.h */,
+				ACBC044618E8796D00900BBC /* XMLParser.m */,
 				5A99FAD718689AF90019263C /* Images.xcassets */,
 				5A99FAC018689AF90019263C /* Supporting Files */,
 			);
@@ -234,6 +249,13 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = MoAppsCo;
 				TargetAttributes = {
+					5A99FAB518689AF90019263C = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
 					5A99FADC18689AF90019263C = {
 						TestTargetID = 5A99FAB518689AF90019263C;
 					};
@@ -293,9 +315,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACBC044718E8796D00900BBC /* XMLParser.m in Sources */,
 				ACBDA8D5186AED3D00EBDB2F /* TF2CollectionViewController.m in Sources */,
+				ACBC044A18E87A4B00900BBC /* NewsViewController.m in Sources */,
 				5A99FACA18689AF90019263C /* AppDelegate.m in Sources */,
 				5A99FAC618689AF90019263C /* main.m in Sources */,
+				ACC48C2618F1EBCE00F73408 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,13 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C092AFB1869E5550040D1CF /* browncampus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1C092AFA1869E5550040D1CF /* browncampus.jpeg */; };
 		1C2E47A7185567AA0020665E /* marquette campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1C2E47A5185567AA0020665E /* marquette campus.jpeg */; };
 		1C2E47A8185567AA0020665E /* marquette seal.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C2E47A6185567AA0020665E /* marquette seal.png */; };
 		1C2E47AC185568140020665E /* carnegie_mellon_U_seal.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C2E47A9185568140020665E /* carnegie_mellon_U_seal.png */; };
 		1C2E47AD185568140020665E /* carnegieclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C2E47AA185568140020665E /* carnegieclasssize.png */; };
 		1C2E47AE185568140020665E /* college-photo_7656..jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C2E47AB185568140020665E /* college-photo_7656..jpg */; };
+<<<<<<< HEAD
 		5AC7253518719FE9000A6FB3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC7253318719FE9000A6FB3 /* MainStoryboard_iPhone.storyboard */; };
+=======
+		1C704D7D187CB29D00C8BBEE /* collegiateHeavyOutline Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C704D58187CB29D00C8BBEE /* collegiateHeavyOutline Medium.ttf */; };
+		1C704D7E187CB29D00C8BBEE /* CollegiateHeavyOutline Medium.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1C704D59187CB29D00C8BBEE /* CollegiateHeavyOutline Medium.txt */; };
+		1C704D7F187CB29D00C8BBEE /* CollegiateHeavyOutline.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1C704D5A187CB29D00C8BBEE /* CollegiateHeavyOutline.txt */; };
+		1C704D80187CB29D00C8BBEE /* character_collegiate-heavy-outline.zip in Resources */ = {isa = PBXBuildFile; fileRef = 1C704D5B187CB29D00C8BBEE /* character_collegiate-heavy-outline.zip */; };
+		1C704D81187CB29D00C8BBEE /* Document2.docx in Resources */ = {isa = PBXBuildFile; fileRef = 1C704D5C187CB29D00C8BBEE /* Document2.docx */; };
+		1C704D82187CB29D00C8BBEE /* imgres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C704D5D187CB29D00C8BBEE /* imgres.jpg */; };
+		1C704DAB187CB4C900C8BBEE /* icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C704D9F187CB4C900C8BBEE /* icon-114.png */; };
+		1C704DAC187CB4C900C8BBEE /* icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C704DA0187CB4C900C8BBEE /* icon-120.png */; };
+		1C704DAD187CB4C900C8BBEE /* icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C704DA1187CB4C900C8BBEE /* icon-29.png */; };
+		1C704DAE187CB4C900C8BBEE /* icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C704DA2187CB4C900C8BBEE /* icon-57.png */; };
+		1C704DAF187CB4C900C8BBEE /* icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C704DA3187CB4C900C8BBEE /* icon-58.png */; };
+		1C704DB0187CB4C900C8BBEE /* icon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C704DA4187CB4C900C8BBEE /* icon-80.png */; };
+		1C704DB1187CB4C900C8BBEE /* ORIGINAL.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C704DA5187CB4C900C8BBEE /* ORIGINAL.png */; };
+		1C704DB2187CB4C900C8BBEE /* ORIGINAL.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C704DA7187CB4C900C8BBEE /* ORIGINAL.png */; };
+		1C704DB3187CB4C900C8BBEE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C704DA8187CB4C900C8BBEE /* Default-568h@2x.png */; };
+		1C704DB4187CB4C900C8BBEE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C704DA9187CB4C900C8BBEE /* Default.png */; };
+		1C704DB5187CB4C900C8BBEE /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C704DAA187CB4C900C8BBEE /* Default~iphone.png */; };
+		1C704DB7187CB80500C8BBEE /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C704DB6187CB80500C8BBEE /* MainStoryboard_iPhone.storyboard */; };
+>>>>>>> FETCH_HEAD
 		AC3357A217404A74001C8B7E /* Nimages.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AC3357A117404A74001C8B7E /* Nimages.jpeg */; };
 		AC3357A4174050F9001C8B7E /* asdnfsjajdnfs.png in Resources */ = {isa = PBXBuildFile; fileRef = AC3357A3174050F9001C8B7E /* asdnfsjajdnfs.png */; };
 		AC3357A617405883001C8B7E /* cacsa.png in Resources */ = {isa = PBXBuildFile; fileRef = AC3357A517405883001C8B7E /* cacsa.png */; };
@@ -316,8 +336,6 @@
 		ACAA99B117403B3400FC632D /* BrownCampus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96F217403B3100FC632D /* BrownCampus.jpeg */; };
 		ACAA99B217403B3400FC632D /* brownclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96F317403B3100FC632D /* brownclasssize.png */; };
 		ACAA99B317403B3400FC632D /* BrownSeal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96F417403B3100FC632D /* BrownSeal.png */; };
-		ACAA99B617403B3400FC632D /* brownclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96F817403B3100FC632D /* brownclasssize.png */; };
-		ACAA99B817403B3400FC632D /* url2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96FA17403B3100FC632D /* url2.jpeg */; };
 		ACAA99B917403B3400FC632D /* calitechclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96FC17403B3100FC632D /* calitechclasssize.png */; };
 		ACAA99BA17403B3400FC632D /* college-photo_91.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96FD17403B3100FC632D /* college-photo_91.png */; };
 		ACAA99BC17403B3400FC632D /* seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96FF17403B3100FC632D /* seal.png */; };
@@ -513,9 +531,6 @@
 		ACAA9ACE17403B3400FC632D /* yeshiva_logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA985917403B3300FC632D /* yeshiva_logo.jpeg */; };
 		ACAA9ACF17403B3400FC632D /* community.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA985B17403B3300FC632D /* community.png */; };
 		ACAA9AD017403B3400FC632D /* custom_about_us_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA985C17403B3300FC632D /* custom_about_us_icon.png */; };
-		ACAA9AD117403B3400FC632D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA985D17403B3300FC632D /* Default-568h@2x.png */; };
-		ACAA9AD217403B3400FC632D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA985E17403B3300FC632D /* Default.png */; };
-		ACAA9AD317403B3400FC632D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA985F17403B3300FC632D /* Default@2x.png */; };
 		ACAA9AD417403B3400FC632D /* facebook-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA986017403B3300FC632D /* facebook-icon.png */; };
 		ACAA9AD517403B3400FC632D /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA986117403B3300FC632D /* first.png */; };
 		ACAA9AD617403B3400FC632D /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA986217403B3300FC632D /* first@2x.png */; };
@@ -528,8 +543,6 @@
 		ACAC01221753004D00057683 /* seal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAC01211753004D00057683 /* seal.jpeg */; };
 		ACAE445E1747A0F2000B38B9 /* aa6das6d.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAE445C1747A0F2000B38B9 /* aa6das6d.jpeg */; };
 		ACAE445F1747A0F2000B38B9 /* college-photo_14338.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACAE445D1747A0F2000B38B9 /* college-photo_14338.jpg */; };
-		ACB391741752F75D00E4F8B1 /* UCollege App Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ACB391731752F75D00E4F8B1 /* UCollege App Icon.png */; };
-		ACB391761752F7F700E4F8B1 /* UCollege App Icon Retina Display.png in Resources */ = {isa = PBXBuildFile; fileRef = ACB391751752F7F700E4F8B1 /* UCollege App Icon Retina Display.png */; };
 		ACB908CE17963109006237E9 /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB908CD17963109006237E9 /* FavoritesViewController.m */; };
 		ACC2AE30173341FE00E59E5F /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC2AE2F173341FE00E59E5F /* iAd.framework */; };
 		ACC2AE321733420E00E59E5F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC2AE311733420D00E59E5F /* MessageUI.framework */; };
@@ -554,13 +567,33 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1C092AFA1869E5550040D1CF /* browncampus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = browncampus.jpeg; sourceTree = "<group>"; };
 		1C2E47A5185567AA0020665E /* marquette campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "marquette campus.jpeg"; path = "Pictures/College Photos/#85 Marquette U/marquette campus.jpeg"; sourceTree = SOURCE_ROOT; };
 		1C2E47A6185567AA0020665E /* marquette seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "marquette seal.png"; path = "Pictures/College Photos/#85 Marquette U/marquette seal.png"; sourceTree = SOURCE_ROOT; };
 		1C2E47A9185568140020665E /* carnegie_mellon_U_seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = carnegie_mellon_U_seal.png; path = "Pictures/College Photos/Carnegie Mellon U #23/carnegie_mellon_U_seal.png"; sourceTree = SOURCE_ROOT; };
 		1C2E47AA185568140020665E /* carnegieclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = carnegieclasssize.png; path = "Pictures/College Photos/Carnegie Mellon U #23/carnegieclasssize.png"; sourceTree = SOURCE_ROOT; };
 		1C2E47AB185568140020665E /* college-photo_7656..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "college-photo_7656..jpg"; path = "Pictures/College Photos/Carnegie Mellon U #23/college-photo_7656..jpg"; sourceTree = SOURCE_ROOT; };
+<<<<<<< HEAD
 		5AC7253418719FE9000A6FB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+=======
+		1C704D58187CB29D00C8BBEE /* collegiateHeavyOutline Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "collegiateHeavyOutline Medium.ttf"; sourceTree = "<group>"; };
+		1C704D59187CB29D00C8BBEE /* CollegiateHeavyOutline Medium.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CollegiateHeavyOutline Medium.txt"; sourceTree = "<group>"; };
+		1C704D5A187CB29D00C8BBEE /* CollegiateHeavyOutline.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CollegiateHeavyOutline.txt; sourceTree = "<group>"; };
+		1C704D5B187CB29D00C8BBEE /* character_collegiate-heavy-outline.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "character_collegiate-heavy-outline.zip"; sourceTree = "<group>"; };
+		1C704D5C187CB29D00C8BBEE /* Document2.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = Document2.docx; sourceTree = "<group>"; };
+		1C704D5D187CB29D00C8BBEE /* imgres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imgres.jpg; sourceTree = "<group>"; };
+		1C704D9F187CB4C900C8BBEE /* icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-114.png"; sourceTree = "<group>"; };
+		1C704DA0187CB4C900C8BBEE /* icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-120.png"; sourceTree = "<group>"; };
+		1C704DA1187CB4C900C8BBEE /* icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-29.png"; sourceTree = "<group>"; };
+		1C704DA2187CB4C900C8BBEE /* icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-57.png"; sourceTree = "<group>"; };
+		1C704DA3187CB4C900C8BBEE /* icon-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-58.png"; sourceTree = "<group>"; };
+		1C704DA4187CB4C900C8BBEE /* icon-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-80.png"; sourceTree = "<group>"; };
+		1C704DA5187CB4C900C8BBEE /* ORIGINAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ORIGINAL.png; sourceTree = "<group>"; };
+		1C704DA7187CB4C900C8BBEE /* ORIGINAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ORIGINAL.png; sourceTree = "<group>"; };
+		1C704DA8187CB4C900C8BBEE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1C704DA9187CB4C900C8BBEE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1C704DAA187CB4C900C8BBEE /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~iphone.png"; sourceTree = "<group>"; };
+		1C704DB6187CB80500C8BBEE /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+>>>>>>> FETCH_HEAD
 		AC3357A117404A74001C8B7E /* Nimages.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nimages.jpeg; sourceTree = "<group>"; };
 		AC3357A3174050F9001C8B7E /* asdnfsjajdnfs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asdnfsjajdnfs.png; sourceTree = "<group>"; };
 		AC3357A517405883001C8B7E /* cacsa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cacsa.png; sourceTree = "<group>"; };
@@ -871,8 +904,6 @@
 		ACAA96F217403B3100FC632D /* BrownCampus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BrownCampus.jpeg; sourceTree = "<group>"; };
 		ACAA96F317403B3100FC632D /* brownclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brownclasssize.png; sourceTree = "<group>"; };
 		ACAA96F417403B3100FC632D /* BrownSeal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BrownSeal.png; sourceTree = "<group>"; };
-		ACAA96F817403B3100FC632D /* brownclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brownclasssize.png; sourceTree = "<group>"; };
-		ACAA96FA17403B3100FC632D /* url2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = url2.jpeg; sourceTree = "<group>"; };
 		ACAA96FC17403B3100FC632D /* calitechclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calitechclasssize.png; sourceTree = "<group>"; };
 		ACAA96FD17403B3100FC632D /* college-photo_91.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "college-photo_91.png"; sourceTree = "<group>"; };
 		ACAA96FF17403B3100FC632D /* seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seal.png; sourceTree = "<group>"; };
@@ -1068,9 +1099,6 @@
 		ACAA985917403B3300FC632D /* yeshiva_logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yeshiva_logo.jpeg; sourceTree = "<group>"; };
 		ACAA985B17403B3300FC632D /* community.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = community.png; sourceTree = "<group>"; };
 		ACAA985C17403B3300FC632D /* custom_about_us_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = custom_about_us_icon.png; sourceTree = "<group>"; };
-		ACAA985D17403B3300FC632D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		ACAA985E17403B3300FC632D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		ACAA985F17403B3300FC632D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		ACAA986017403B3300FC632D /* facebook-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook-icon.png"; sourceTree = "<group>"; };
 		ACAA986117403B3300FC632D /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		ACAA986217403B3300FC632D /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
@@ -1083,8 +1111,6 @@
 		ACAC01211753004D00057683 /* seal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seal.jpeg; sourceTree = "<group>"; };
 		ACAE445C1747A0F2000B38B9 /* aa6das6d.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aa6das6d.jpeg; sourceTree = "<group>"; };
 		ACAE445D1747A0F2000B38B9 /* college-photo_14338.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "college-photo_14338.jpg"; sourceTree = "<group>"; };
-		ACB391731752F75D00E4F8B1 /* UCollege App Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UCollege App Icon.png"; sourceTree = "<group>"; };
-		ACB391751752F7F700E4F8B1 /* UCollege App Icon Retina Display.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UCollege App Icon Retina Display.png"; sourceTree = "<group>"; };
 		ACB908CC17963109006237E9 /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
 		ACB908CD17963109006237E9 /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
 		ACC2AE2F173341FE00E59E5F /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
@@ -1127,10 +1153,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C704D56187CB29D00C8BBEE /* ICON NO TOUCH FILES */ = {
+			isa = PBXGroup;
+			children = (
+				1C704D9D187CB4C900C8BBEE /* NEW ICONS */,
+				1C704D57187CB29D00C8BBEE /* character_collegiate-heavy-outline */,
+				1C704D5B187CB29D00C8BBEE /* character_collegiate-heavy-outline.zip */,
+				1C704D5C187CB29D00C8BBEE /* Document2.docx */,
+				1C704D5D187CB29D00C8BBEE /* imgres.jpg */,
+			);
+			path = "ICON NO TOUCH FILES";
+			sourceTree = "<group>";
+		};
+		1C704D57187CB29D00C8BBEE /* character_collegiate-heavy-outline */ = {
+			isa = PBXGroup;
+			children = (
+				1C704D58187CB29D00C8BBEE /* collegiateHeavyOutline Medium.ttf */,
+				1C704D59187CB29D00C8BBEE /* CollegiateHeavyOutline Medium.txt */,
+				1C704D5A187CB29D00C8BBEE /* CollegiateHeavyOutline.txt */,
+			);
+			path = "character_collegiate-heavy-outline";
+			sourceTree = "<group>";
+		};
+		1C704D9D187CB4C900C8BBEE /* NEW ICONS */ = {
+			isa = PBXGroup;
+			children = (
+				1C704D9E187CB4C900C8BBEE /* ICON */,
+				1C704DA6187CB4C900C8BBEE /* SPLASHPAGE 2 */,
+			);
+			path = "NEW ICONS";
+			sourceTree = "<group>";
+		};
+		1C704D9E187CB4C900C8BBEE /* ICON */ = {
+			isa = PBXGroup;
+			children = (
+				1C704D9F187CB4C900C8BBEE /* icon-114.png */,
+				1C704DA0187CB4C900C8BBEE /* icon-120.png */,
+				1C704DA1187CB4C900C8BBEE /* icon-29.png */,
+				1C704DA2187CB4C900C8BBEE /* icon-57.png */,
+				1C704DA3187CB4C900C8BBEE /* icon-58.png */,
+				1C704DA4187CB4C900C8BBEE /* icon-80.png */,
+				1C704DA5187CB4C900C8BBEE /* ORIGINAL.png */,
+			);
+			path = ICON;
+			sourceTree = "<group>";
+		};
+		1C704DA6187CB4C900C8BBEE /* SPLASHPAGE 2 */ = {
+			isa = PBXGroup;
+			children = (
+				1C704DA7187CB4C900C8BBEE /* ORIGINAL.png */,
+				1C704DA8187CB4C900C8BBEE /* Default-568h@2x.png */,
+				1C704DA9187CB4C900C8BBEE /* Default.png */,
+				1C704DAA187CB4C900C8BBEE /* Default~iphone.png */,
+			);
+			path = "SPLASHPAGE 2";
+			sourceTree = "<group>";
+		};
 		AC9EF8301735FE6400A1D9A1 /* UCollege */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				5AC7253318719FE9000A6FB3 /* MainStoryboard_iPhone.storyboard */,
+=======
+				1C704DB6187CB80500C8BBEE /* MainStoryboard_iPhone.storyboard */,
+>>>>>>> FETCH_HEAD
 				AC9EF8C21735FE6500A1D9A1 /* AppDelegate.h */,
 				ACC7F22A1794E88E0083D35A /* SidebarViewController.h */,
 				ACC7F22B1794E88E0083D35A /* SidebarViewController.m */,
@@ -1160,8 +1246,6 @@
 		ACA8ED441731698B00D79353 = {
 			isa = PBXGroup;
 			children = (
-				ACB391751752F7F700E4F8B1 /* UCollege App Icon Retina Display.png */,
-				ACB391731752F75D00E4F8B1 /* UCollege App Icon.png */,
 				ACAA951E17403B2F00FC632D /* Pictures */,
 				AC9EF8301735FE6400A1D9A1 /* UCollege */,
 				ACA8ED4F1731698B00D79353 /* Frameworks */,
@@ -1365,7 +1449,6 @@
 				ACAA96E917403B3100FC632D /* Brandeis University #33 */,
 				ACAA96ED17403B3100FC632D /* Brigham Young University--Provo #67 */,
 				ACAA96F117403B3100FC632D /* Brown U #15 */,
-				ACAA96F617403B3100FC632D /* Brown University #15 */,
 				ACAA96FB17403B3100FC632D /* Caltech #10 */,
 				ACAA970117403B3100FC632D /* Carnegie Mellon U #23  */,
 				ACAA970617403B3100FC632D /* Case Western Reserve U #37 */,
@@ -2677,16 +2760,6 @@
 			path = "Brown U #15";
 			sourceTree = "<group>";
 		};
-		ACAA96F617403B3100FC632D /* Brown University #15 */ = {
-			isa = PBXGroup;
-			children = (
-				1C092AFA1869E5550040D1CF /* browncampus.jpeg */,
-				ACAA96F817403B3100FC632D /* brownclasssize.png */,
-				ACAA96FA17403B3100FC632D /* url2.jpeg */,
-			);
-			path = "Brown University #15";
-			sourceTree = "<group>";
-		};
 		ACAA96FB17403B3100FC632D /* Caltech #10 */ = {
 			isa = PBXGroup;
 			children = (
@@ -3413,11 +3486,9 @@
 		ACAA985A17403B3300FC632D /* Xcode Resource Photos */ = {
 			isa = PBXGroup;
 			children = (
+				1C704D56187CB29D00C8BBEE /* ICON NO TOUCH FILES */,
 				ACAA985B17403B3300FC632D /* community.png */,
 				ACAA985C17403B3300FC632D /* custom_about_us_icon.png */,
-				ACAA985D17403B3300FC632D /* Default-568h@2x.png */,
-				ACAA985E17403B3300FC632D /* Default.png */,
-				ACAA985F17403B3300FC632D /* Default@2x.png */,
 				ACAA986017403B3300FC632D /* facebook-icon.png */,
 				ACAA986117403B3300FC632D /* first.png */,
 				ACAA986217403B3300FC632D /* first@2x.png */,
@@ -3525,6 +3596,7 @@
 				ACAA988917403B3300FC632D /* 786868438486a0cbfc217d977766601e.jpg in Resources */,
 				ACAA988A17403B3300FC632D /* ic_picture_final.jpg in Resources */,
 				ACAA988C17403B3300FC632D /* north-carolina-state-university-office.jpg in Resources */,
+				1C704DB1187CB4C900C8BBEE /* ORIGINAL.png in Resources */,
 				ACAA988D17403B3300FC632D /* about_ub.jpg in Resources */,
 				ACAA988E17403B3300FC632D /* University_at_Buffalo_The_State_University_of_New_York_seal.png in Resources */,
 				ACAA988F17403B3300FC632D /* images6111.jpeg in Resources */,
@@ -3565,6 +3637,7 @@
 				ACAA98B317403B3300FC632D /* hiiuhiihi.jpeg in Resources */,
 				ACAA98B417403B3300FC632D /* uk-seal-1930.gif in Resources */,
 				1C2E47A8185567AA0020665E /* marquette seal.png in Resources */,
+				1C704DAB187CB4C900C8BBEE /* icon-114.png in Resources */,
 				ACAA98B517403B3300FC632D /* coldd.jpeg in Resources */,
 				ACAA98B617403B3300FC632D /* UofU_official_seal.png in Resources */,
 				ACAA98B717403B3300FC632D /* 200px-Washington_State_U_Seal.png in Resources */,
@@ -3648,6 +3721,7 @@
 				ACAA990F17403B3400FC632D /* clarkcampus.jpeg in Resources */,
 				ACAA991017403B3400FC632D /* clarkseal.jpeg in Resources */,
 				ACAA991217403B3400FC632D /* Drexel_campus.jpeg in Resources */,
+				1C704DAD187CB4C900C8BBEE /* icon-29.png in Resources */,
 				ACAA991317403B3400FC632D /* Drexel_seal.png in Resources */,
 				ACAA991617403B3400FC632D /* indianabloomingtoncampus.jpeg in Resources */,
 				ACAA991717403B3400FC632D /* indianabloomingtonseal.jpeg in Resources */,
@@ -3687,6 +3761,7 @@
 				ACAA994A17403B3400FC632D /* OAJBGOJBHJOBH.jpeg in Resources */,
 				ACAA994B17403B3400FC632D /* wgw.jpeg in Resources */,
 				ACAA994C17403B3400FC632D /* dsfds.jpeg in Resources */,
+				1C704D7F187CB29D00C8BBEE /* CollegiateHeavyOutline.txt in Resources */,
 				ACAA994D17403B3400FC632D /* gaPGA.jpeg in Resources */,
 				ACAA994E17403B3400FC632D /* isdofda.jpeg in Resources */,
 				ACAA994F17403B3400FC632D /* sela.jpeg in Resources */,
@@ -3720,6 +3795,7 @@
 				ACAA996B17403B3400FC632D /* asdofaihsfosdhf.jpeg in Resources */,
 				ACAA996C17403B3400FC632D /* bsdkjfjasjkfdhs.jpeg in Resources */,
 				ACAA996E17403B3400FC632D /* sbdkfbasdkjfd.jpeg in Resources */,
+				1C704D7D187CB29D00C8BBEE /* collegiateHeavyOutline Medium.ttf in Resources */,
 				ACAA996F17403B3400FC632D /* sfkjshadfdkjsahfd.jpeg in Resources */,
 				ACAA997017403B3400FC632D /* asdfklashdofl.jpeg in Resources */,
 				ACAA997117403B3400FC632D /* ashkdfasf.jpeg in Resources */,
@@ -3783,10 +3859,9 @@
 				ACAA99AE17403B3400FC632D /* brigham_campus.jpeg in Resources */,
 				ACAA99AF17403B3400FC632D /* brigham_logo.png in Resources */,
 				ACAA99B117403B3400FC632D /* BrownCampus.jpeg in Resources */,
+				1C704DB2187CB4C900C8BBEE /* ORIGINAL.png in Resources */,
 				ACAA99B217403B3400FC632D /* brownclasssize.png in Resources */,
 				ACAA99B317403B3400FC632D /* BrownSeal.png in Resources */,
-				ACAA99B617403B3400FC632D /* brownclasssize.png in Resources */,
-				ACAA99B817403B3400FC632D /* url2.jpeg in Resources */,
 				ACAA99B917403B3400FC632D /* calitechclasssize.png in Resources */,
 				ACAA99BA17403B3400FC632D /* college-photo_91.png in Resources */,
 				ACAA99BC17403B3400FC632D /* seal.png in Resources */,
@@ -3815,11 +3890,13 @@
 				ACAA99E317403B3400FC632D /* george_seal.png in Resources */,
 				ACAA99E417403B3400FC632D /* georgetownclasssize.png in Resources */,
 				ACAA99E617403B3400FC632D /* georgia_campus.jpeg in Resources */,
+				1C704DB7187CB80500C8BBEE /* MainStoryboard_iPhone.storyboard in Resources */,
 				ACAA99E717403B3400FC632D /* georgia_logo.png in Resources */,
 				ACAA99E917403B3400FC632D /* 01.jpg in Resources */,
 				ACAA99EA17403B3400FC632D /* Harvard_Wreath_Logo_1.svg.png in Resources */,
 				ACAA99EB17403B3400FC632D /* harvardclasssize.png in Resources */,
 				ACAA99ED17403B3400FC632D /* button_back.png in Resources */,
+				1C704DB0187CB4C900C8BBEE /* icon-80.png in Resources */,
 				ACAA99EE17403B3400FC632D /* button_normal.png in Resources */,
 				ACAA99EF17403B3400FC632D /* cell_bottom.png in Resources */,
 				ACAA99F017403B3400FC632D /* cell_bottom@2x.png in Resources */,
@@ -3829,11 +3906,13 @@
 				ACAA99F417403B3400FC632D /* cell_top@2x.png in Resources */,
 				ACAA99F517403B3400FC632D /* cell_top_tile.png in Resources */,
 				ACAA99F617403B3400FC632D /* common_bg.png in Resources */,
+				1C704D80187CB29D00C8BBEE /* character_collegiate-heavy-outline.zip in Resources */,
 				ACAA99F717403B3400FC632D /* common_bg@2x.png in Resources */,
 				ACAA99F817403B3400FC632D /* Default 15-31-31-471.png in Resources */,
 				ACAA99F917403B3400FC632D /* Default-568h@2x.png in Resources */,
 				ACAA99FA17403B3400FC632D /* Default@2x.png in Resources */,
 				ACAA99FB17403B3400FC632D /* first.png in Resources */,
+				1C704DB5187CB4C900C8BBEE /* Default~iphone.png in Resources */,
 				ACAA99FC17403B3400FC632D /* first@2x.png in Resources */,
 				ACAA99FE17403B3400FC632D /* icondemo.png in Resources */,
 				ACAA99FF17403B3400FC632D /* listofcollegesicon.png in Resources */,
@@ -3842,6 +3921,7 @@
 				ACAA9A0217403B3400FC632D /* photo-frame.png in Resources */,
 				ACAA9A0317403B3400FC632D /* photo-frame@2x.png in Resources */,
 				ACAA9A0417403B3400FC632D /* second.png in Resources */,
+				1C704DB4187CB4C900C8BBEE /* Default.png in Resources */,
 				ACAA9A0517403B3400FC632D /* second@2x.png in Resources */,
 				ACAA9A0617403B3400FC632D /* hopkinsclasssize.png in Resources */,
 				ACAA9A0817403B3400FC632D /* JHU_University_Seal.png in Resources */,
@@ -3855,6 +3935,7 @@
 				ACAA9A1317403B3400FC632D /* mitclasssize.png in Resources */,
 				ACAA9A1617403B3400FC632D /* new_york_campus.jpeg in Resources */,
 				ACAA9A1717403B3400FC632D /* new_york_seal.png in Resources */,
+				1C704D81187CB29D00C8BBEE /* Document2.docx in Resources */,
 				ACAA9A1817403B3400FC632D /* college-photo_8852.jpg in Resources */,
 				ACAA9A1A17403B3400FC632D /* Northeastern-seal.svg.png in Resources */,
 				ACAA9A1B17403B3400FC632D /* college-photo_3270..jpg in Resources */,
@@ -3864,6 +3945,7 @@
 				ACAA9A2117403B3400FC632D /* NDSeal.png in Resources */,
 				ACAA9A2217403B3400FC632D /* notredameclasssize.png in Resources */,
 				ACAA9A2317403B3400FC632D /* File:Seal_of_the_Ohio_State_University.png in Resources */,
+				1C704D82187CB29D00C8BBEE /* imgres.jpg in Resources */,
 				ACAA9A2517403B3400FC632D /* photos.jpeg in Resources */,
 				ACAA9A2617403B3400FC632D /* college-photo_6492..jpg in Resources */,
 				ACAA9A2817403B3400FC632D /* Pennsylvania_State_University_seal.svg.png in Resources */,
@@ -3917,6 +3999,7 @@
 				ACAA9A6D17403B3400FC632D /* santa_barbara_campus.jpeg in Resources */,
 				ACAA9A6E17403B3400FC632D /* Ucsb_seal.svg.png in Resources */,
 				ACAA9A6F17403B3400FC632D /* chicago_u.png in Resources */,
+				1C704D7E187CB29D00C8BBEE /* CollegiateHeavyOutline Medium.txt in Resources */,
 				ACAA9A7017403B3400FC632D /* chicagoclasssize.png in Resources */,
 				ACAA9A7317403B3400FC632D /* University_of_Chicago_Modern_Etched_Seal_1.png in Resources */,
 				ACAA9A7417403B3400FC632D /* connecticut_campus.jpeg in Resources */,
@@ -3942,6 +4025,7 @@
 				ACAA9A9117403B3400FC632D /* minnesota_campus.jpeg in Resources */,
 				ACAA9A9217403B3400FC632D /* Umnseal.png in Resources */,
 				ACAA9A9417403B3400FC632D /* nebraskacampus.jpg in Resources */,
+				1C704DAF187CB4C900C8BBEE /* icon-58.png in Resources */,
 				ACAA9A9517403B3400FC632D /* nebraskaseal.jpeg in Resources */,
 				ACAA9A9617403B3400FC632D /* File:UNC_Chapel_Hill_seal.png in Resources */,
 				ACAA9A9817403B3400FC632D /* north_carolina_campus.jpeg in Resources */,
@@ -3955,7 +4039,6 @@
 				ACAA9AA317403B3400FC632D /* austin_campus.jpeg in Resources */,
 				ACAA9AA417403B3400FC632D /* File:Large_university-of-texas_seal_rgb(199-91-18).png in Resources */,
 				ACAA9AA717403B3400FC632D /* photos.jpeg in Resources */,
-				1C092AFB1869E5550040D1CF /* browncampus.jpeg in Resources */,
 				ACAA9AA817403B3400FC632D /* UVA_Rotunda_Logo.svg.png in Resources */,
 				ACAA9AA917403B3400FC632D /* virginiaclasssize.png in Resources */,
 				ACAA9AAA17403B3400FC632D /* File:University_of_Washington_Seal.png in Resources */,
@@ -3966,9 +4049,11 @@
 				ACAA9AB217403B3400FC632D /* images.png in Resources */,
 				ACAA9AB417403B3400FC632D /* upennclasssize.png in Resources */,
 				ACAA9AB617403B3400FC632D /* VanderbiltCampus.jpeg in Resources */,
+				1C704DB3187CB4C900C8BBEE /* Default-568h@2x.png in Resources */,
 				ACAA9AB717403B3400FC632D /* vanderbiltclasssize.png in Resources */,
 				ACAA9AB817403B3400FC632D /* VanderbiltSeal.jpeg in Resources */,
 				ACAA9ABA17403B3400FC632D /* virginia_campus.jpeg in Resources */,
+				1C704DAC187CB4C900C8BBEE /* icon-120.png in Resources */,
 				ACAA9ABB17403B3400FC632D /* virginia_logo.png in Resources */,
 				ACAA9ABD17403B3400FC632D /* wake_campus.jpeg in Resources */,
 				ACAA9ABE17403B3400FC632D /* wake_seal.png in Resources */,
@@ -3985,9 +4070,6 @@
 				ACAA9ACE17403B3400FC632D /* yeshiva_logo.jpeg in Resources */,
 				ACAA9ACF17403B3400FC632D /* community.png in Resources */,
 				ACAA9AD017403B3400FC632D /* custom_about_us_icon.png in Resources */,
-				ACAA9AD117403B3400FC632D /* Default-568h@2x.png in Resources */,
-				ACAA9AD217403B3400FC632D /* Default.png in Resources */,
-				ACAA9AD317403B3400FC632D /* Default@2x.png in Resources */,
 				ACAA9AD417403B3400FC632D /* facebook-icon.png in Resources */,
 				ACAA9AD517403B3400FC632D /* first.png in Resources */,
 				ACAA9AD617403B3400FC632D /* first@2x.png in Resources */,
@@ -3998,12 +4080,11 @@
 				ACAA9ADB17403B3400FC632D /* second.png in Resources */,
 				ACAA9ADC17403B3400FC632D /* second@2x.png in Resources */,
 				AC3357A217404A74001C8B7E /* Nimages.jpeg in Resources */,
+				1C704DAE187CB4C900C8BBEE /* icon-57.png in Resources */,
 				AC3357A4174050F9001C8B7E /* asdnfsjajdnfs.png in Resources */,
 				AC3357A617405883001C8B7E /* cacsa.png in Resources */,
 				ACAE445E1747A0F2000B38B9 /* aa6das6d.jpeg in Resources */,
 				ACAE445F1747A0F2000B38B9 /* college-photo_14338.jpg in Resources */,
-				ACB391741752F75D00E4F8B1 /* UCollege App Icon.png in Resources */,
-				ACB391761752F7F700E4F8B1 /* UCollege App Icon Retina Display.png in Resources */,
 				ACAC01221753004D00057683 /* seal.jpeg in Resources */,
 				ACC7F21A1794E7A40083D35A /* comments_photo.jpg in Resources */,
 				ACC7F21B1794E7A40083D35A /* bookmark_photo.jpg in Resources */,
@@ -4055,6 +4136,7 @@
 			name = MainStoryboard_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		AC9EF9221735FE6600A1D9A1 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -4063,6 +4145,8 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> FETCH_HEAD
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -4125,7 +4209,7 @@
 		ACA8ED7C1731698C00D79353 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Aparna Sriram (Y93874BG43)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Aparna Sriram (Y93874BG43)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4134,7 +4218,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UCollege/UCollege-Prefix.pch";
 				INFOPLIST_FILE = "UCollege/UCollege-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "27DB784C-C23B-4651-86D6-CAE931C20662";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "27DB784C-C23B-4651-86D6-CAE931C20662";
@@ -4145,7 +4229,7 @@
 		ACA8ED7D1731698C00D79353 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Aparna Sriram (K6LM2NL94U)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Aparna Sriram (K6LM2NL94U)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4154,7 +4238,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UCollege/UCollege-Prefix.pch";
 				INFOPLIST_FILE = "UCollege/UCollege-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "36862DB9-57D8-45B1-A5CF-BC64CE6EC964";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "36862DB9-57D8-45B1-A5CF-BC64CE6EC964";

@@ -7,6 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ViewController.h"
+#import "SWRevealViewController.h"
+
+
 
 @interface DBQAppDelegate : UIResponder <UIApplicationDelegate>
 

@@ -7,13 +7,14 @@
 //
 
 #import "AppDelegate.h"
+#import "NewsViewController.h"
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
+    [application setMinimumBackgroundFetchInterval:UIApplicationBackgroundFetchIntervalMinimum];
     // Override point for customization after application launch.
     // Uncomment to change the background color of navigation bar
     [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0xb35326)];
@@ -40,7 +41,25 @@
      shadow, NSShadowAttributeName,
      [UIFont fontWithName:@"HelveticaNeue-CondensedBlack" size:21.0], NSFontAttributeName, nil]];
      */
+    
+    
     return YES;
+}
+
+-(void)application:(UIApplication *)application performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler{
+    NSDate *fetchStart = [NSDate date];
+    
+    UINavigationController *navController = (UINavigationController *)self.window.rootViewController;
+    NewsViewController *viewController = (NewsViewController *)[[navController viewControllers] objectAtIndex:0];
+    
+    [viewController fetchNewDataWithCompletionHandler:^(UIBackgroundFetchResult result) {
+        completionHandler(result);
+        
+        NSDate *fetchEnd = [NSDate date];
+        NSTimeInterval timeElapsed = [fetchEnd timeIntervalSinceDate:fetchStart];
+        NSLog(@"Background Fetch Duration: %f seconds", timeElapsed);
+        
+    }];
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

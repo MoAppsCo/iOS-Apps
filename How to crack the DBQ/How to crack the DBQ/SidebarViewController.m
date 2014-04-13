@@ -31,7 +31,7 @@
     self.view.backgroundColor = [UIColor colorWithWhite:0.2f alpha:1.0f];
     self.tableView.backgroundColor = [UIColor colorWithWhite:0.2f alpha:1.0f];
     self.tableView.separatorColor = [UIColor colorWithWhite:0.15f alpha:0.2f];
-    _menuItems = @[@"title", @"livebinder", @"examples", @"prep", @"extras"];
+    _menuItems = @[@"title", @"livebinder", @"examples", @"prep", @"settings"];
     [super viewDidLoad];
     
 }

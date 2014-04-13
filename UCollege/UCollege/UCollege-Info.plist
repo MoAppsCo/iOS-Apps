@@ -14,6 +14,13 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
+				<string>icon-80</string>
+				<string>icon-58</string>
+				<string>icon-29</string>
+				<string>icon-120</string>
+				<string>icon-114</string>
+				<string>icon-57</string>
+				<string>Icon-60</string>
 				<string>UCollege App Icon.png</string>
 				<string>UCollege App Icon Retina Display.png</string>
 			</array>
@@ -35,12 +42,16 @@
 	<string>1.0.1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UILaunchImageFile</key>
+	<string>Default</string>
 	<key>UIMainStoryboardFile</key>
 	<string>MainStoryboard_iPhone</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>UIStatusBarHidden</key>
+	<true/>
 	<key>UIStatusBarTintParameters</key>
 	<dict>
 		<key>UINavigationBar</key>
@@ -56,6 +67,7 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 </dict>
 </plist>
