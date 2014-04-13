@@ -13,6 +13,7 @@
 		1C2E47AC185568140020665E /* carnegie_mellon_U_seal.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C2E47A9185568140020665E /* carnegie_mellon_U_seal.png */; };
 		1C2E47AD185568140020665E /* carnegieclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C2E47AA185568140020665E /* carnegieclasssize.png */; };
 		1C2E47AE185568140020665E /* college-photo_7656..jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C2E47AB185568140020665E /* college-photo_7656..jpg */; };
+		5AC7253518719FE9000A6FB3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC7253318719FE9000A6FB3 /* MainStoryboard_iPhone.storyboard */; };
 		AC3357A217404A74001C8B7E /* Nimages.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AC3357A117404A74001C8B7E /* Nimages.jpeg */; };
 		AC3357A4174050F9001C8B7E /* asdnfsjajdnfs.png in Resources */ = {isa = PBXBuildFile; fileRef = AC3357A3174050F9001C8B7E /* asdnfsjajdnfs.png */; };
 		AC3357A617405883001C8B7E /* cacsa.png in Resources */ = {isa = PBXBuildFile; fileRef = AC3357A517405883001C8B7E /* cacsa.png */; };
@@ -22,7 +23,6 @@
 		AC9EFAFE1735FE6800A1D9A1 /* CollegeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9EF8FE1735FE6600A1D9A1 /* CollegeDetailViewController.m */; };
 		AC9EFAFF1735FE6800A1D9A1 /* CollegeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9EF9001735FE6600A1D9A1 /* CollegeViewController.m */; };
 		AC9EFB1C1735FE6800A1D9A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC9EF9221735FE6600A1D9A1 /* InfoPlist.strings */; };
-		AC9EFB1D1735FE6800A1D9A1 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9EF9241735FE6600A1D9A1 /* MainStoryboard_iPhone.storyboard */; };
 		AC9EFB511735FE6800A1D9A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9EF95F1735FE6600A1D9A1 /* main.m */; };
 		AC9EFB5A1735FE6800A1D9A1 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9EF96B1735FE6600A1D9A1 /* MoreViewController.m */; };
 		AC9EFBA01735FE6800A1D9A1 /* UCollege-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC9EF9C51735FE6700A1D9A1 /* UCollege-Info.plist */; };
@@ -560,6 +560,7 @@
 		1C2E47A9185568140020665E /* carnegie_mellon_U_seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = carnegie_mellon_U_seal.png; path = "Pictures/College Photos/Carnegie Mellon U #23/carnegie_mellon_U_seal.png"; sourceTree = SOURCE_ROOT; };
 		1C2E47AA185568140020665E /* carnegieclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = carnegieclasssize.png; path = "Pictures/College Photos/Carnegie Mellon U #23/carnegieclasssize.png"; sourceTree = SOURCE_ROOT; };
 		1C2E47AB185568140020665E /* college-photo_7656..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "college-photo_7656..jpg"; path = "Pictures/College Photos/Carnegie Mellon U #23/college-photo_7656..jpg"; sourceTree = SOURCE_ROOT; };
+		5AC7253418719FE9000A6FB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		AC3357A117404A74001C8B7E /* Nimages.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nimages.jpeg; sourceTree = "<group>"; };
 		AC3357A3174050F9001C8B7E /* asdnfsjajdnfs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asdnfsjajdnfs.png; sourceTree = "<group>"; };
 		AC3357A517405883001C8B7E /* cacsa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cacsa.png; sourceTree = "<group>"; };
@@ -574,7 +575,6 @@
 		AC9EF8FF1735FE6600A1D9A1 /* CollegeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollegeViewController.h; sourceTree = "<group>"; };
 		AC9EF9001735FE6600A1D9A1 /* CollegeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollegeViewController.m; sourceTree = "<group>"; };
 		AC9EF9231735FE6600A1D9A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AC9EF9251735FE6600A1D9A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		AC9EF95F1735FE6600A1D9A1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AC9EF96A1735FE6600A1D9A1 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
 		AC9EF96B1735FE6600A1D9A1 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
@@ -1130,6 +1130,7 @@
 		AC9EF8301735FE6400A1D9A1 /* UCollege */ = {
 			isa = PBXGroup;
 			children = (
+				5AC7253318719FE9000A6FB3 /* MainStoryboard_iPhone.storyboard */,
 				AC9EF8C21735FE6500A1D9A1 /* AppDelegate.h */,
 				ACC7F22A1794E88E0083D35A /* SidebarViewController.h */,
 				ACC7F22B1794E88E0083D35A /* SidebarViewController.m */,
@@ -1145,7 +1146,6 @@
 				AC9EF8FF1735FE6600A1D9A1 /* CollegeViewController.h */,
 				AC9EF9001735FE6600A1D9A1 /* CollegeViewController.m */,
 				AC9EF9221735FE6600A1D9A1 /* InfoPlist.strings */,
-				AC9EF9241735FE6600A1D9A1 /* MainStoryboard_iPhone.storyboard */,
 				AC9EF95F1735FE6600A1D9A1 /* main.m */,
 				AC9EF96A1735FE6600A1D9A1 /* MoreViewController.h */,
 				AC9EF96B1735FE6600A1D9A1 /* MoreViewController.m */,
@@ -3493,7 +3493,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC9EFB1C1735FE6800A1D9A1 /* InfoPlist.strings in Resources */,
-				AC9EFB1D1735FE6800A1D9A1 /* MainStoryboard_iPhone.storyboard in Resources */,
 				AC9EFBA01735FE6800A1D9A1 /* UCollege-Info.plist in Resources */,
 				ACAA986917403B3300FC632D /* blog picture 1136x640.png in Resources */,
 				ACAA986A17403B3300FC632D /* blog picture 960x640.png in Resources */,
@@ -3726,6 +3725,7 @@
 				ACAA997117403B3400FC632D /* ashkdfasf.jpeg in Resources */,
 				ACAA997217403B3400FC632D /* skdjfkahsdkf.jpeg in Resources */,
 				ACAA997317403B3400FC632D /* hkasjdhfkjsdf.jpeg in Resources */,
+				5AC7253518719FE9000A6FB3 /* MainStoryboard_iPhone.storyboard in Resources */,
 				ACAA997417403B3400FC632D /* dhnskfhasdf.jpeg in Resources */,
 				ACAA997517403B3400FC632D /* kljsdfashdlf.jpeg in Resources */,
 				ACAA997617403B3400FC632D /* kjashdffa.jpeg in Resources */,
@@ -4047,20 +4047,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		5AC7253318719FE9000A6FB3 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AC7253418719FE9000A6FB3 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
 		AC9EF9221735FE6600A1D9A1 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AC9EF9231735FE6600A1D9A1 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		AC9EF9241735FE6600A1D9A1 /* MainStoryboard_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AC9EF9251735FE6600A1D9A1 /* en */,
-			);
-			name = MainStoryboard_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
